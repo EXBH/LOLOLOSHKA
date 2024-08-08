@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0  ;
+}
+html, body{
+    height: 100%;
+}
+.cont{
+height: 100%;
+display: flex;
+flex-direction: column;
+}
+.main{
+flex: 1 0 100%;
+}
+.container{
+    max-width: 964px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.gyg{
+    display: flex;
+    list-style: none;
+    gap: 155px;
+}
+.nav{
+    height: 88px;
+    display: flex;
+    align-items: center;
+    font-size: 19px;
+    border-bottom: 1px solid #828282;
+    margin-bottom: 40px;
+}
+.pop{
+    height: 387px;
+}
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-bottom: 30px;
+}
+.lang{
+    writing-mode: vertical-lr
+}
